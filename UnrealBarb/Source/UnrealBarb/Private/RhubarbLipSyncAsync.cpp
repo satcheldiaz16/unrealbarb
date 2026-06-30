@@ -113,10 +113,10 @@ bool URhubarbLipSyncAsync::RunRhubarbProcess(
     FString& OutError)
 {
     // Locate the exe inside THIS plugin, wherever the plugin is installed.
-    TSharedPtr<IPlugin> Plugin = IPluginManager::Get().FindPlugin(TEXT("RhubarbLipSync"));
+    TSharedPtr<IPlugin> Plugin = IPluginManager::Get().FindPlugin(TEXT("UnrealBarb"));
     if (!Plugin.IsValid())
     {
-        OutError = TEXT("RhubarbLipSync plugin not found");
+        OutError = TEXT("UnrealBarb plugin not found");
         return false;
     }
 
