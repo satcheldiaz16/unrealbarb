@@ -1,8 +1,8 @@
 using UnrealBuildTool;
-
-public class RhubarbLipSync : ModuleRules
+using System.IO;
+public class UnrealBarb : ModuleRules
 {
-    public RhubarbLipSync(ReadOnlyTargetRules Target) : base(Target)
+    public UnrealBarb(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 

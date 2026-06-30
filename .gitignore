@@ -1,0 +1,7 @@
+# Plugin build artifacts
+Packaged/
+Binaries/
+Intermediate/
+
+# build command
+build_cmd.txt
