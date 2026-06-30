@@ -1,0 +1,7 @@
+# Plugin build artifacts
+Binaries/
+Intermediate/
+
+# Keep the vendored Rhubarb binary (negate any global binary ignores)
+!ThirdParty/
+!ThirdParty/**
